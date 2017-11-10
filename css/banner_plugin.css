@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+/*上下轮播样式*/
+.upDownlist ul{
+	width: 400px;
+	height: auto;
+	background: #1AB394;
+}
+.upDownlist ul>li{
+	height: 200px;
+}
+.upDownlist{
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+.upDownlist ol>li{
+	height:40px;
+	line-height: 40px;
+	padding-left:20px;
+	border-bottom: 1px solid #fff;
+}
+/*左右轮播样式*/
+.leftRight {
+	margin :50px auto;
+	height: 200px;
+	width:400px;
+	background: #ff7fde;
+	overflow: hidden;
+    position: relative;
+}
+.leftRight ul{
+	width:9999999px;
+    height:200px;
+}
+.leftRight ul>li{
+	width: 400px;
+	height: 200px;
+	float: left;
+}
+.leftRight ol>li{
+	height:40px;
+	line-height: 40px;
+	padding-left:20px;
+	border-bottom: 1px solid #fff;
+}
+.iconBtn{
+	position: absolute;
+    top: 155px;
+    left: 300px;
+}
+.iconBtn span{
+	width: 10px;
+    height: 10px;
+    background: #fff;
+    float: left;
+    margin-right: 10px;
+	cursor: pointer;
+}
+.upDownlist .iconBtn .action,.leftRight .iconBtn .action{
+	background: #431297;
+}
